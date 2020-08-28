@@ -1,6 +1,10 @@
-const raining =true;
+
+
+
+// Conditional to demostrate the weather
+const raining =false;
 const cold =true;
-const temperature = 18;
+const temperature = -50;
 
 if(raining)
 {
@@ -30,3 +34,23 @@ else{
 
 console.log("Now you are ready to go out");
 
+//condition to demonstrate logical && operator
+
+const isCitizen =true;
+const age =5;
+
+if(isCitizen && age>=18)
+{
+  console.log("You are eligible to Vote");
+}
+
+//condition to demonstrate logical || operator
+if(temperature<-40||temperature>40)
+{
+  console.log("Going outside isn't such a great Idea");
+}
+
+if(!raining)
+{
+  console.log("Leave your Umbrella at Home");
+}
